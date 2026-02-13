@@ -203,6 +203,19 @@ Mọi đóng góp đều được hoan nghênh! Bạn có thể:
 
 ---
 
+## ⚠️ Disclaimer — Tuyên bố miễn trừ trách nhiệm
+
+> **100% nội dung trên website này được tạo bởi Trí tuệ nhân tạo (AI).**
+
+- Toàn bộ bài giảng, blog, case study, tiêu chuẩn và mọi tài liệu trong dự án này đều được **sinh tự động bởi AI** (Large Language Model). Nội dung **chưa được kiểm chứng** bởi chuyên gia ngành Supply Chain Management.
+- Thông tin được cung cấp **"nguyên trạng" (as-is)** chỉ nhằm mục đích **tham khảo và học tập**. Tác giả và cộng tác viên **không chịu trách nhiệm** về tính chính xác, đầy đủ hoặc cập nhật của nội dung.
+- **Không thay thế** tư vấn chuyên môn từ chuyên gia SCM, tư vấn pháp lý, tài chính hoặc bất kỳ lĩnh vực nào khác.
+- Các số liệu, công thức, case study và ví dụ có thể chứa **sai sót, thiếu chính xác hoặc lỗi thời**. Người đọc cần **tự xác minh** trước khi áp dụng vào thực tế.
+- Mọi thương hiệu, tên công ty (Apple, Toyota, Amazon, Zara, Nike, Walmart…) được đề cập chỉ nhằm mục đích **minh họa giáo dục**, không ngụ ý bất kỳ liên kết hay bảo trợ nào.
+- Việc sử dụng nội dung từ dự án này hoàn toàn thuộc **trách nhiệm của người dùng**.
+
+---
+
 ## 📄 License
 
 [MIT](LICENSE) © 2026 — Tự do sử dụng, chia sẻ và đóng góp.

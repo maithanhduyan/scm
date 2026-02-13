@@ -257,8 +257,8 @@ export default defineConfig({
 
     /* ── Footer ────────────────────────────────────── */
     footer: {
-      message: "Tài liệu khóa học SCM theo tiêu chuẩn quốc tế",
-      copyright: "© 2026 Supply Chain Management",
+      message: '⚠️ 100% nội dung được tạo bởi AI — chỉ mang tính tham khảo, không thay thế tư vấn chuyên môn.',
+      copyright: '© 2026 Supply Chain Management',
     },
 
     /* ── Search ────────────────────────────────────── */

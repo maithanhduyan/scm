@@ -146,3 +146,44 @@ features:
 </p>
 
 </div>
+
+<style>
+.disclaimer-section {
+  max-width: 780px;
+  margin: 2rem auto 3rem;
+  padding: 1.5rem 2rem;
+  border: 1px solid var(--vp-c-warning-1);
+  border-radius: 12px;
+  background: var(--vp-c-warning-soft);
+}
+.disclaimer-section h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+  color: var(--vp-c-warning-1);
+}
+.disclaimer-section p,
+.disclaimer-section ul {
+  font-size: 0.85rem;
+  color: var(--vp-c-text-2);
+  line-height: 1.7;
+}
+.disclaimer-section ul { padding-left: 1.2rem; margin: 0.5rem 0; }
+.disclaimer-section li { margin-bottom: 0.3rem; }
+.disclaimer-section strong { color: var(--vp-c-text-1); }
+</style>
+
+<div class="disclaimer-section">
+
+## ⚠️ Disclaimer — Tuyên bố miễn trừ trách nhiệm
+
+<p><strong>100% nội dung trên website này được tạo bởi Trí tuệ nhân tạo (AI).</strong></p>
+
+<ul>
+  <li>Toàn bộ bài giảng, blog, case study và tài liệu đều được <strong>sinh tự động bởi AI</strong> — chưa được kiểm chứng bởi chuyên gia ngành.</li>
+  <li>Nội dung cung cấp <strong>"nguyên trạng" (as-is)</strong>, chỉ nhằm mục đích <strong>tham khảo và học tập</strong>.</li>
+  <li>Các số liệu, công thức, ví dụ có thể chứa <strong>sai sót hoặc lỗi thời</strong> — người đọc cần <strong>tự xác minh</strong> trước khi áp dụng.</li>
+  <li>Tên thương hiệu (Apple, Toyota, Amazon…) chỉ nhằm <strong>minh họa giáo dục</strong>, không ngụ ý liên kết hay bảo trợ.</li>
+  <li><strong>Không thay thế</strong> tư vấn chuyên môn. Việc sử dụng nội dung hoàn toàn thuộc <strong>trách nhiệm người dùng</strong>.</li>
+</ul>
+
+</div>
