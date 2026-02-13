@@ -60,17 +60,33 @@ Upstream = Lean, Downstream = Agile.
 
 ### Data-Driven SCM
 
-```
-         ┌─────────────┐
-         │  Descriptive │  → Chuyện gì đã xảy ra?
-         ├─────────────┤
-         │  Diagnostic  │  → Tại sao xảy ra?
-         ├─────────────┤
-         │  Predictive  │  → Sẽ xảy ra gì?
-         ├─────────────┤
-         │ Prescriptive │  → Nên làm gì?
-         └─────────────┘
-```
+<div class="analytics-stack">
+  <div class="an-tier an-t4">
+    <div class="an-label">🚀 Prescriptive</div>
+    <div class="an-desc">Nên làm gì?</div>
+  </div>
+  <div class="an-tier an-t3">
+    <div class="an-label">🔮 Predictive</div>
+    <div class="an-desc">Sẽ xảy ra gì?</div>
+  </div>
+  <div class="an-tier an-t2">
+    <div class="an-label">🔍 Diagnostic</div>
+    <div class="an-desc">Tại sao xảy ra?</div>
+  </div>
+  <div class="an-tier an-t1">
+    <div class="an-label">📊 Descriptive</div>
+    <div class="an-desc">Chuyện gì đã xảy ra?</div>
+  </div>
+</div>
+
+<style>
+.analytics-stack{display:flex;flex-direction:column;align-items:center;gap:.4rem;padding:1.2rem .5rem}
+.an-tier{display:flex;align-items:center;justify-content:space-between;padding:.7rem 1.2rem;border-radius:10px;border:2px solid var(--vp-c-divider);background:var(--vp-c-bg-soft);width:100%;max-width:380px;transition:all .3s}
+.an-tier:hover{transform:translateX(6px);box-shadow:0 4px 14px rgba(0,0,0,.07)}
+.an-t1{border-color:#94a3b8}.an-t2{border-color:#f59e0b}.an-t3{border-color:#8b5cf6}.an-t4{border-color:#ef4444}
+.an-label{font-weight:700;font-size:.75rem;color:var(--vp-c-text-1)}
+.an-desc{font-size:.68rem;color:var(--vp-c-text-2);font-style:italic}
+</style>
 
 ## 4. Best Practices toàn cầu
 

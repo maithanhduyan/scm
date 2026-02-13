@@ -12,10 +12,45 @@ outline: [2, 3]
 
 ### Mô hình quan hệ NCC
 
-```
-Transactional ──→ Collaborative ──→ Strategic ──→ Partnership
-   (Mua bán)       (Hợp tác)       (Chiến lược)   (Đối tác)
-```
+<div class="srm-spectrum">
+  <div class="srm-node srm-n1">
+    <div class="srm-icon">🛒</div>
+    <div class="srm-title">Transactional</div>
+    <div class="srm-sub">Mua bán</div>
+  </div>
+  <div class="srm-arr">→</div>
+  <div class="srm-node srm-n2">
+    <div class="srm-icon">🤝</div>
+    <div class="srm-title">Collaborative</div>
+    <div class="srm-sub">Hợp tác</div>
+  </div>
+  <div class="srm-arr">→</div>
+  <div class="srm-node srm-n3">
+    <div class="srm-icon">🎯</div>
+    <div class="srm-title">Strategic</div>
+    <div class="srm-sub">Chiến lược</div>
+  </div>
+  <div class="srm-arr">→</div>
+  <div class="srm-node srm-n4">
+    <div class="srm-icon">💎</div>
+    <div class="srm-title">Partnership</div>
+    <div class="srm-sub">Đối tác</div>
+  </div>
+</div>
+<div class="srm-bar"></div>
+
+<style>
+.srm-spectrum{display:flex;align-items:center;justify-content:center;gap:0;padding:1.2rem .5rem .2rem}
+.srm-node{min-width:100px;padding:.8rem .5rem;border-radius:12px;border:2px solid var(--vp-c-divider);background:var(--vp-c-bg-soft);text-align:center;transition:all .3s}
+.srm-node:hover{transform:translateY(-3px);box-shadow:0 4px 14px rgba(0,0,0,.08)}
+.srm-n1{border-color:#94a3b8}.srm-n2{border-color:#f59e0b}.srm-n3{border-color:#8b5cf6}.srm-n4{border-color:#10b981}
+.srm-icon{font-size:1.4rem;margin-bottom:.2rem}
+.srm-title{font-weight:700;font-size:.7rem;color:var(--vp-c-text-1)}
+.srm-sub{font-size:.6rem;color:var(--vp-c-text-3)}
+.srm-arr{font-size:1.1rem;font-weight:700;color:var(--vp-c-brand-1);padding:0 .3rem}
+.srm-bar{height:4px;border-radius:4px;background:linear-gradient(90deg,#94a3b8,#f59e0b,#8b5cf6,#10b981);margin:0 auto;max-width:560px}
+@media(max-width:640px){.srm-spectrum{flex-direction:column}.srm-arr{transform:rotate(90deg)}}
+</style>
 
 ### 4 cấp độ quan hệ
 

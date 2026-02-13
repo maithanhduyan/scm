@@ -12,11 +12,33 @@ outline: [2, 3]
 
 Chuỗi cung ứng bao gồm toàn bộ dòng chảy từ **nguyên vật liệu → sản xuất → phân phối → khách hàng cuối**.
 
-```
-Supplier → Manufacturer → Distributor → Retailer → Customer
-    ↑                                                    |
-    └────────── Information & Cash Flow ─────────────────┘
-```
+<div class="sc-e2e">
+  <div class="sc-flow">
+    <div class="sc-node sc-sup">🏭<br/>Supplier</div>
+    <div class="sc-arrow">→</div>
+    <div class="sc-node sc-mfg">⚙️<br/>Manufacturer</div>
+    <div class="sc-arrow">→</div>
+    <div class="sc-node sc-dist">📦<br/>Distributor</div>
+    <div class="sc-arrow">→</div>
+    <div class="sc-node sc-ret">🏪<br/>Retailer</div>
+    <div class="sc-arrow">→</div>
+    <div class="sc-node sc-cust">👤<br/>Customer</div>
+  </div>
+  <div class="sc-feedback">
+    <span>🔄 Information & Cash Flow</span>
+  </div>
+</div>
+
+<style>
+.sc-e2e{padding:1.2rem .5rem;text-align:center}
+.sc-flow{display:flex;align-items:center;justify-content:center;gap:0;flex-wrap:wrap}
+.sc-node{min-width:90px;padding:.7rem .5rem;border-radius:12px;border:2px solid var(--vp-c-divider);background:var(--vp-c-bg-soft);font-size:.72rem;font-weight:600;color:var(--vp-c-text-1);transition:all .3s}
+.sc-node:hover{transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,0,0,.08)}
+.sc-sup{border-color:#8b5cf6}.sc-mfg{border-color:#f59e0b}.sc-dist{border-color:#06b6d4}.sc-ret{border-color:#10b981}.sc-cust{border-color:#ec4899}
+.sc-arrow{font-size:1rem;font-weight:700;color:var(--vp-c-brand-1);padding:0 .3rem}
+.sc-feedback{margin-top:.6rem;padding:.5rem 1rem;border:2px dashed var(--vp-c-brand-1);border-radius:24px;display:inline-block;font-size:.7rem;font-weight:600;color:var(--vp-c-brand-1);background:var(--vp-c-brand-soft)}
+@media(max-width:640px){.sc-flow{flex-direction:column}.sc-arrow{transform:rotate(90deg)}}
+</style>
 
 ### Các thành phần chính
 

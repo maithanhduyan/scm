@@ -157,15 +157,41 @@ Activity-Based Costing (ABC) là phương pháp kế toán quản trị ra đờ
 
 **Methodology: Activity → Cost Driver → Cost Object**
 
-```
-Nguồn lực (Resources)
-    │
-    ▼  [Resource Driver — cách phân bổ nguồn lực]
-Hoạt động (Activities)
-    │
-    ▼  [Activity Driver — cách phân bổ hoạt động]
-Đối tượng chi phí (Cost Objects: Kênh / Khách hàng / SKU)
-```
+<div class="abc-flow">
+  <div class="abc-tier abc-t1">
+    <div class="abc-icon">💰</div>
+    <div class="abc-label">Nguồn lực (Resources)</div>
+  </div>
+  <div class="abc-arrow-down">
+    <div class="abc-driver">Resource Driver</div>
+  </div>
+  <div class="abc-tier abc-t2">
+    <div class="abc-icon">⚙️</div>
+    <div class="abc-label">Hoạt động (Activities)</div>
+  </div>
+  <div class="abc-arrow-down">
+    <div class="abc-driver">Activity Driver</div>
+  </div>
+  <div class="abc-tier abc-t3">
+    <div class="abc-icon">🎯</div>
+    <div class="abc-label">Đối tượng chi phí (Cost Objects)</div>
+    <div class="abc-sub">Kênh / Khách hàng / SKU</div>
+  </div>
+</div>
+
+<style>
+.abc-flow{display:flex;flex-direction:column;align-items:center;gap:0;max-width:350px;margin:1rem auto}
+.abc-tier{padding:.8rem 1.2rem;border-radius:12px;border:2px solid var(--vp-c-divider);background:var(--vp-c-bg-soft);text-align:center;width:100%;transition:all .3s}
+.abc-tier:hover{transform:scale(1.02);box-shadow:0 4px 14px rgba(0,0,0,.06)}
+.abc-t1{border-color:#6366f1}.abc-t2{border-color:#f59e0b}.abc-t3{border-color:#10b981}
+.abc-icon{font-size:1.5rem}
+.abc-label{font-weight:700;font-size:.82rem;color:var(--vp-c-text-1)}
+.abc-sub{font-size:.7rem;color:var(--vp-c-text-3)}
+.abc-arrow-down{display:flex;flex-direction:column;align-items:center;padding:.2rem 0}
+.abc-arrow-down::before{content:'';display:block;width:2px;height:14px;background:var(--vp-c-brand-1)}
+.abc-arrow-down::after{content:'';display:block;border:6px solid transparent;border-top:8px solid var(--vp-c-brand-1)}
+.abc-driver{font-size:.6rem;font-weight:600;color:var(--vp-c-brand-1);background:var(--vp-c-brand-soft);padding:.15rem .5rem;border-radius:99px;margin-top:.2rem}
+</style>
 
 **Các thành phần Cost-to-Serve trong phân phối:**
 
@@ -240,11 +266,30 @@ ISO 9001:2015 là **tiêu chuẩn quản lý chất lượng được áp dụng
 
 **Quy trình xử lý Nonconformity (10.2) cho phân phối:**
 
-```
-Phát hiện NC → Hành động khắc phục tức thời → Phân tích nguyên nhân gốc
-     → Xác định corrective action → Triển khai → Verify hiệu lực
-          → Cập nhật risk/opportunity → Lưu hồ sơ
-```
+<div class="nc-flow">
+  <div class="nc-step nc-c1">🚨 Phát hiện NC</div>
+  <div class="nc-a">→</div>
+  <div class="nc-step nc-c2">🛠️ Khắc phục tức thời</div>
+  <div class="nc-a">→</div>
+  <div class="nc-step nc-c3">🔍 Phân tích gốc</div>
+  <div class="nc-a">→</div>
+  <div class="nc-step nc-c4">📋 Corrective Action</div>
+  <div class="nc-a">→</div>
+  <div class="nc-step nc-c5">⚙️ Triển khai</div>
+  <div class="nc-a">→</div>
+  <div class="nc-step nc-c6">✅ Verify</div>
+  <div class="nc-a">→</div>
+  <div class="nc-step nc-c7">💾 Lưu hồ sơ</div>
+</div>
+
+<style>
+.nc-flow{display:flex;align-items:center;justify-content:center;gap:0;padding:1rem .5rem;overflow-x:auto;flex-wrap:wrap}
+.nc-step{padding:.5rem .6rem;border-radius:8px;border:1.5px solid var(--vp-c-divider);background:var(--vp-c-bg-soft);font-weight:600;font-size:.68rem;white-space:nowrap;transition:all .3s}
+.nc-step:hover{transform:translateY(-2px);box-shadow:0 3px 10px rgba(0,0,0,.06)}
+.nc-c1{border-color:#ef4444}.nc-c2{border-color:#f59e0b}.nc-c3{border-color:#6366f1}
+.nc-c4{border-color:#8b5cf6}.nc-c5{border-color:#10b981}.nc-c6{border-color:#06b6d4}.nc-c7{border-color:#ec4899}
+.nc-a{color:var(--vp-c-text-3);font-size:.7rem;margin:0 .15rem}
+</style>
 
 ### 🔧 Cách áp dụng
 

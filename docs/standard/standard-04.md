@@ -190,11 +190,37 @@ Toyota Production System (TPS) không chỉ là hệ thống sản xuất nội 
 
 **Supplier Development Process:**
 
-```
-Assess → Plan → Execute → Monitor → Review
-  ↑                                    ↓
-  ←←←←← Continuous Improvement ←←←←←←←
-```
+<div class="sd-cycle">
+  <div class="sd-steps">
+    <div class="sd-step sd-c1"><span class="sd-icon">🔍</span> Assess</div>
+    <div class="sd-arr">→</div>
+    <div class="sd-step sd-c2"><span class="sd-icon">📋</span> Plan</div>
+    <div class="sd-arr">→</div>
+    <div class="sd-step sd-c3"><span class="sd-icon">⚙️</span> Execute</div>
+    <div class="sd-arr">→</div>
+    <div class="sd-step sd-c4"><span class="sd-icon">📊</span> Monitor</div>
+    <div class="sd-arr">→</div>
+    <div class="sd-step sd-c5"><span class="sd-icon">✅</span> Review</div>
+  </div>
+  <div class="sd-loop">
+    <div class="sd-loop-line"></div>
+    <div class="sd-loop-label">🔄 Continuous Improvement</div>
+  </div>
+</div>
+
+<style>
+.sd-cycle{max-width:600px;margin:1rem auto;text-align:center}
+.sd-steps{display:flex;align-items:center;justify-content:center;gap:0;flex-wrap:wrap}
+.sd-step{padding:.6rem .8rem;border-radius:10px;border:2px solid var(--vp-c-divider);background:var(--vp-c-bg-soft);font-weight:700;font-size:.78rem;transition:all .3s;min-width:70px}
+.sd-step:hover{transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,0,0,.07)}
+.sd-c1{border-color:#6366f1;color:#6366f1}.sd-c2{border-color:#f59e0b;color:#d97706}
+.sd-c3{border-color:#10b981;color:#059669}.sd-c4{border-color:#ec4899;color:#db2777}
+.sd-c5{border-color:#ef4444;color:#dc2626}
+.sd-icon{display:block;font-size:1.2rem;margin-bottom:.2rem}
+.sd-arr{color:var(--vp-c-brand-1);font-weight:700;font-size:1rem;margin:0 .3rem}
+.sd-loop{margin-top:.5rem;padding:.4rem .8rem;border:2px dashed var(--vp-c-brand-1);border-radius:99px;display:inline-block}
+.sd-loop-label{font-size:.7rem;font-weight:600;color:var(--vp-c-brand-1)}
+</style>
 
 ### 🔧 Cách áp dụng
 

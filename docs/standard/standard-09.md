@@ -133,10 +133,38 @@ Viettel Post triển khai trung tâm phân loại bưu kiện tự động, áp 
 
 #### Phân chia trách nhiệm
 
-```
-Rủi ro & chi phí BUYER nhiều ←────────────────────→ Rủi ro & chi phí SELLER nhiều
-EXW → FCA → FAS → FOB → CFR → CIF → CPT → CIP → DAP → DPU → DDP
-```
+<div class="inco2-spectrum">
+  <div class="inco2-bar">
+    <span class="inco2-dot ib">EXW</span>
+    <span class="inco2-dot ib">FCA</span>
+    <span class="inco2-dot ib">FAS</span>
+    <span class="inco2-dot im">FOB</span>
+    <span class="inco2-dot im">CFR</span>
+    <span class="inco2-dot im">CIF</span>
+    <span class="inco2-dot im">CPT</span>
+    <span class="inco2-dot is">CIP</span>
+    <span class="inco2-dot is">DAP</span>
+    <span class="inco2-dot is">DPU</span>
+    <span class="inco2-dot is">DDP</span>
+  </div>
+  <div class="inco2-gradient"></div>
+  <div class="inco2-labels">
+    <span>◀ Rủi ro & chi phí <strong>BUYER</strong> nhiều</span>
+    <span>Rủi ro & chi phí <strong>SELLER</strong> nhiều ▶</span>
+  </div>
+</div>
+
+<style>
+.inco2-spectrum{max-width:680px;margin:1rem auto;padding:1rem}
+.inco2-bar{display:flex;justify-content:space-between;margin-bottom:.3rem;gap:.15rem;flex-wrap:wrap}
+.inco2-dot{font-size:.62rem;font-weight:700;padding:.3rem .45rem;border-radius:99px;transition:all .3s;cursor:default}
+.inco2-dot:hover{transform:scale(1.12)}
+.ib{background:rgba(59,130,246,.12);color:#2563eb}
+.im{background:rgba(245,158,11,.12);color:#d97706}
+.is{background:rgba(239,68,68,.12);color:#dc2626}
+.inco2-gradient{height:6px;border-radius:99px;background:linear-gradient(90deg,#3b82f6,#f59e0b,#ef4444);margin-bottom:.5rem}
+.inco2-labels{display:flex;justify-content:space-between;font-size:.65rem;color:var(--vp-c-text-3)}
+</style>
 
 #### Lỗi thường gặp khi sử dụng Incoterms
 
@@ -251,15 +279,45 @@ DHL Supply Chain tại Việt Nam áp dụng ISO 28000 cho kho hàng điện t�
 
 SSCC là mã số **18 chữ số** duy nhất trên toàn cầu, dùng để nhận dạng **mỗi đơn vị logistics** (pallet, thùng, kiện hàng):
 
-```
-Cấu trúc SSCC:
-┌─────────────────────────────────────────────────────┐
-│  Extension │ GS1 Company │ Serial     │ Check │
-│  Digit (1) │ Prefix (7-10)│ Reference  │ Digit │
-│     0      │  893456700   │  00001234  │   5   │
-└─────────────────────────────────────────────────────┘
-Tổng: 18 chữ số → Mã hóa trong GS1-128 barcode (AI = 00)
-```
+<div class="sscc-struct">
+  <div class="sscc-box">
+    <div class="sscc-parts">
+      <div class="sscc-part sscc-ext">
+        <div class="sscc-val">0</div>
+        <div class="sscc-name">Extension<br/>Digit (1)</div>
+      </div>
+      <div class="sscc-part sscc-prefix">
+        <div class="sscc-val">893456700</div>
+        <div class="sscc-name">GS1 Company<br/>Prefix (7–10)</div>
+      </div>
+      <div class="sscc-part sscc-serial">
+        <div class="sscc-val">00001234</div>
+        <div class="sscc-name">Serial<br/>Reference</div>
+      </div>
+      <div class="sscc-part sscc-check">
+        <div class="sscc-val">5</div>
+        <div class="sscc-name">Check<br/>Digit</div>
+      </div>
+    </div>
+  </div>
+  <div class="sscc-caption">Tổng: <strong>18 chữ số</strong> → Mã hóa trong GS1-128 barcode (AI = 00)</div>
+</div>
+
+<style>
+.sscc-struct{max-width:550px;margin:1rem auto;text-align:center}
+.sscc-box{border:2px solid var(--vp-c-divider);border-radius:14px;overflow:hidden;background:var(--vp-c-bg-soft)}
+.sscc-parts{display:flex}
+.sscc-part{flex:1;padding:.8rem .5rem;border-right:1px solid var(--vp-c-divider);text-align:center;transition:all .3s}
+.sscc-part:last-child{border-right:none}
+.sscc-part:hover{background:var(--vp-c-brand-soft)}
+.sscc-val{font-weight:700;font-size:1rem;font-family:monospace;color:var(--vp-c-text-1)}
+.sscc-name{font-size:.6rem;color:var(--vp-c-text-3);margin-top:.3rem;line-height:1.3}
+.sscc-ext{flex:.3;background:rgba(99,102,241,.06)}
+.sscc-prefix{flex:1.2;background:rgba(16,185,129,.06)}
+.sscc-serial{flex:1;background:rgba(245,158,11,.06)}
+.sscc-check{flex:.3;background:rgba(239,68,68,.06)}
+.sscc-caption{font-size:.75rem;color:var(--vp-c-text-2);margin-top:.6rem}
+</style>
 
 #### GS1-128 Logistics Label
 
@@ -284,19 +342,41 @@ Tổng: 18 chữ số → Mã hóa trong GS1-128 barcode (AI = 00)
 
 #### Quy trình SSCC trong warehouse
 
-```
-Supplier                    Warehouse                   Customer
-   │                           │                           │
-   │── DESADV (856) ──────────→│                           │
-   │── Giao hàng + SSCC label→│                           │
-   │                           │── Scan SSCC khi receiving │
-   │                           │── Put-away theo SSCC      │
-   │                           │── Pick & pack (new SSCC)  │
-   │                           │── DESADV (856) ──────────→│
-   │                           │── Ship + SSCC label ─────→│
-   │                           │                           │── Scan SSCC
-   │                           │←── RECADV (861) ─────────│
-```
+<div class="seq-diagram">
+  <div class="seq-header">
+    <div class="seq-party seq-supplier">🏭 Supplier</div>
+    <div class="seq-party seq-warehouse">🏢 Warehouse</div>
+    <div class="seq-party seq-customer">👤 Customer</div>
+  </div>
+  <div class="seq-lines">
+    <div class="seq-msg seq-lr"><span class="seq-arrow">→</span> DESADV (856)</div>
+    <div class="seq-msg seq-lr"><span class="seq-arrow">→</span> Giao hàng + SSCC label</div>
+    <div class="seq-msg seq-wh"><span class="seq-internal">📷 Scan SSCC khi receiving</span></div>
+    <div class="seq-msg seq-wh"><span class="seq-internal">📦 Put-away theo SSCC</span></div>
+    <div class="seq-msg seq-wh"><span class="seq-internal">🛒 Pick & pack (new SSCC)</span></div>
+    <div class="seq-msg seq-rc"><span class="seq-arrow">→</span> DESADV (856)</div>
+    <div class="seq-msg seq-rc"><span class="seq-arrow">→</span> Ship + SSCC label</div>
+    <div class="seq-msg seq-cr"><span class="seq-arrow">←</span> RECADV (861)</div>
+  </div>
+</div>
+
+<style>
+.seq-diagram{max-width:580px;margin:1rem auto;border:2px solid var(--vp-c-divider);border-radius:14px;overflow:hidden;background:var(--vp-c-bg-soft)}
+.seq-header{display:flex;border-bottom:2px solid var(--vp-c-divider)}
+.seq-party{flex:1;padding:.6rem;text-align:center;font-weight:700;font-size:.8rem}
+.seq-supplier{background:rgba(99,102,241,.08);color:#6366f1}
+.seq-warehouse{background:rgba(245,158,11,.08);color:#d97706}
+.seq-customer{background:rgba(16,185,129,.08);color:#059669}
+.seq-lines{padding:.5rem}
+.seq-msg{padding:.35rem .8rem;margin:.2rem 0;font-size:.72rem;border-radius:6px;transition:background .2s}
+.seq-msg:hover{background:var(--vp-c-default-soft)}
+.seq-arrow{font-weight:700;color:var(--vp-c-brand-1);margin-right:.3rem}
+.seq-lr{text-align:left;color:#6366f1;padding-left:10%}
+.seq-wh{text-align:center;color:#d97706}
+.seq-rc{text-align:right;color:#059669;padding-right:5%}
+.seq-cr{text-align:right;color:#dc2626;padding-right:5%}
+.seq-internal{font-style:italic}
+</style>
 
 ### 🔧 Cách áp dụng
 

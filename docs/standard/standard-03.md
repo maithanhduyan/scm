@@ -222,17 +222,53 @@ ISO 20400 hướng dẫn đánh giá NCC trên **3 trụ cột ESG:**
 
 #### Quy trình mua sắm bền vững (theo ISO 20400)
 
-```
-Lập kế hoạch → Tích hợp tiêu chí bền vững vào yêu cầu
-      ↓
-Lựa chọn NCC → Đánh giá ESG bên cạnh tiêu chí truyền thống (giá, chất lượng)
-      ↓
-Quản lý hợp đồng → Đưa điều khoản bền vững vào hợp đồng
-      ↓
-Giám sát & đánh giá → Theo dõi KPI bền vững, audit ESG định kỳ
-      ↓
-Review & cải tiến → Cập nhật tiêu chí, nâng dần yêu cầu
-```
+<div class="iso-flow">
+  <div class="iso-step iso-s1">
+    <div class="iso-num">1</div>
+    <div class="iso-content">
+      <div class="iso-title">📋 Lập kế hoạch</div>
+      <div class="iso-desc">Tích hợp tiêu chí bền vững vào yêu cầu</div>
+    </div>
+  </div>
+  <div class="iso-step iso-s2">
+    <div class="iso-num">2</div>
+    <div class="iso-content">
+      <div class="iso-title">🔍 Lựa chọn NCC</div>
+      <div class="iso-desc">Đánh giá ESG bên cạnh giá, chất lượng</div>
+    </div>
+  </div>
+  <div class="iso-step iso-s3">
+    <div class="iso-num">3</div>
+    <div class="iso-content">
+      <div class="iso-title">📝 Quản lý hợp đồng</div>
+      <div class="iso-desc">Đưa điều khoản bền vững vào hợp đồng</div>
+    </div>
+  </div>
+  <div class="iso-step iso-s4">
+    <div class="iso-num">4</div>
+    <div class="iso-content">
+      <div class="iso-title">📊 Giám sát</div>
+      <div class="iso-desc">Theo dõi KPI bền vững, audit ESG</div>
+    </div>
+  </div>
+  <div class="iso-step iso-s5">
+    <div class="iso-num">5</div>
+    <div class="iso-content">
+      <div class="iso-title">🔄 Review & cải tiến</div>
+      <div class="iso-desc">Cập nhật tiêu chí, nâng dần yêu cầu</div>
+    </div>
+  </div>
+</div>
+
+<style>
+.iso-flow{display:flex;flex-direction:column;gap:.5rem;max-width:500px;margin:1rem auto}
+.iso-step{display:flex;align-items:center;gap:.8rem;padding:.7rem 1rem;border-radius:12px;border:1px solid var(--vp-c-divider);background:var(--vp-c-bg-soft);transition:all .3s}
+.iso-step:hover{transform:translateX(4px);box-shadow:0 4px 14px rgba(0,0,0,.06)}
+.iso-num{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.75rem;color:#fff;flex-shrink:0}
+.iso-s1 .iso-num{background:#6366f1}.iso-s2 .iso-num{background:#f59e0b}.iso-s3 .iso-num{background:#10b981}.iso-s4 .iso-num{background:#ec4899}.iso-s5 .iso-num{background:#06b6d4}
+.iso-title{font-weight:700;font-size:.8rem;color:var(--vp-c-text-1)}
+.iso-desc{font-size:.7rem;color:var(--vp-c-text-3)}
+</style>
 
 ### 🔧 Cách áp dụng
 

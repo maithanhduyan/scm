@@ -194,17 +194,50 @@ Masan Group — tập đoàn tiêu dùng - bán lẻ hàng đầu Việt Nam (Wi
 
 Strategy Map kết nối 4 perspectives theo quan hệ nhân - quả (cause-effect):
 
-```
-Learning & Growth     Internal Process      Customer           Financial
-┌─────────────┐      ┌──────────────┐     ┌────────────┐    ┌────────────┐
-│ SC Training │──→   │ Forecast     │──→  │ OTIF ≥ 95% │──→ │ SC Cost    │
-│ Digital     │──→   │ Accuracy ↑   │     │            │    │ ≤ 8% Rev   │
-│ Capability  │      │ OEE ≥ 85%   │──→  │ Perfect    │──→ │ SC ROI ↑   │
-│ Data Quality│──→   │ Supplier     │     │ Order ≥92% │    │ C2C ≤ 25d  │
-│             │      │ Integration  │──→  │ Cycle Time │──→ │ Revenue ↑  │
-└─────────────┘      └──────────────┘     │ ≤ 3 days   │    └────────────┘
-                                          └────────────┘
-```
+<div class="bsc-map">
+  <div class="bsc-col bsc-learn">
+    <div class="bsc-head">🎓 Learning & Growth</div>
+    <div class="bsc-kpi">SC Training</div>
+    <div class="bsc-kpi">Digital Capability</div>
+    <div class="bsc-kpi">Data Quality</div>
+  </div>
+  <div class="bsc-arrows">→<br/>→<br/>→</div>
+  <div class="bsc-col bsc-process">
+    <div class="bsc-head">⚙️ Internal Process</div>
+    <div class="bsc-kpi">Forecast Accuracy ↑</div>
+    <div class="bsc-kpi">OEE ≥ 85%</div>
+    <div class="bsc-kpi">Supplier Integration</div>
+  </div>
+  <div class="bsc-arrows">→<br/>→<br/>→</div>
+  <div class="bsc-col bsc-cust">
+    <div class="bsc-head">👤 Customer</div>
+    <div class="bsc-kpi">OTIF ≥ 95%</div>
+    <div class="bsc-kpi">Perfect Order ≥92%</div>
+    <div class="bsc-kpi">Cycle Time ≤ 3d</div>
+  </div>
+  <div class="bsc-arrows">→<br/>→<br/>→</div>
+  <div class="bsc-col bsc-fin">
+    <div class="bsc-head">💰 Financial</div>
+    <div class="bsc-kpi">SC Cost ≤ 8% Rev</div>
+    <div class="bsc-kpi">SC ROI ↑</div>
+    <div class="bsc-kpi">C2C ≤ 25d</div>
+  </div>
+</div>
+
+<style>
+.bsc-map{display:flex;align-items:stretch;justify-content:center;gap:0;padding:1rem .5rem;overflow-x:auto}
+.bsc-col{min-width:120px;padding:.8rem .6rem;border-radius:12px;border:2px solid var(--vp-c-divider);background:var(--vp-c-bg-soft);text-align:center;transition:all .3s}
+.bsc-col:hover{transform:translateY(-2px);box-shadow:0 4px 14px rgba(0,0,0,.07)}
+.bsc-learn{border-color:#8b5cf6}.bsc-learn .bsc-head{color:#7c3aed}
+.bsc-process{border-color:#f59e0b}.bsc-process .bsc-head{color:#d97706}
+.bsc-cust{border-color:#10b981}.bsc-cust .bsc-head{color:#059669}
+.bsc-fin{border-color:#ef4444}.bsc-fin .bsc-head{color:#dc2626}
+.bsc-head{font-weight:700;font-size:.72rem;margin-bottom:.5rem;padding-bottom:.4rem;border-bottom:1px solid var(--vp-c-divider)}
+.bsc-kpi{font-size:.68rem;color:var(--vp-c-text-2);padding:.25rem .3rem;margin:.2rem 0;border-radius:4px;background:var(--vp-c-bg);transition:background .2s}
+.bsc-kpi:hover{background:var(--vp-c-brand-soft)}
+.bsc-arrows{display:flex;flex-direction:column;justify-content:center;gap:.6rem;color:var(--vp-c-brand-1);font-weight:700;font-size:.8rem;min-width:24px;text-align:center}
+@media(max-width:640px){.bsc-map{flex-direction:column;align-items:center}.bsc-arrows{flex-direction:row;gap:1rem;transform:rotate(90deg);margin:.3rem 0}}
+</style>
 
 #### Cascade KPI: Corporate → SC → Department → Individual
 
@@ -450,17 +483,53 @@ Lora Cecere (Supply Chain Insights) phát triển **Supply Chain Index** đánh 
 
 #### Roadmap Best Practices
 
-```
-Phase 1: Foundation (Q1)     Phase 2: Build (Q2)       Phase 3: Optimize (Q3)    Phase 4: Scale (Q4)
-┌──────────────────┐        ┌──────────────────┐      ┌──────────────────┐      ┌──────────────────┐
-│ • Define KPIs    │        │ • S&OP process   │      │ • Advanced       │      │ • AI/ML pilots   │
-│ • Data cleanup   │        │ • Process        │      │   analytics      │      │ • Autonomous     │
-│ • Team alignment │        │   standardization│      │ • Control Tower  │      │   planning       │
-│ • Quick wins     │        │ • System         │      │ • Supplier       │      │ • Partner        │
-│ • Baseline KPI   │        │   integration    │      │   collaboration  │      │   ecosystem      │
-└──────────────────┘        └──────────────────┘      └──────────────────┘      └──────────────────┘
-  Maturity: 1→2               Maturity: 2→3             Maturity: 3→4             Maturity: 4→5
-```
+<div class="mat-timeline">
+  <div class="mat-phase mat-p1">
+    <div class="mat-q">Phase 1: Q1</div>
+    <div class="mat-title">Foundation</div>
+    <div class="mat-items">• Define KPIs<br/>• Data cleanup<br/>• Team alignment<br/>• Quick wins<br/>• Baseline KPI</div>
+    <div class="mat-level">Maturity: 1→2</div>
+  </div>
+  <div class="mat-arr"><span class="mat-arr-line"></span></div>
+  <div class="mat-phase mat-p2">
+    <div class="mat-q">Phase 2: Q2</div>
+    <div class="mat-title">Build</div>
+    <div class="mat-items">• S&OP process<br/>• Process standardization<br/>• System integration</div>
+    <div class="mat-level">Maturity: 2→3</div>
+  </div>
+  <div class="mat-arr"><span class="mat-arr-line"></span></div>
+  <div class="mat-phase mat-p3">
+    <div class="mat-q">Phase 3: Q3</div>
+    <div class="mat-title">Optimize</div>
+    <div class="mat-items">• Advanced analytics<br/>• Control Tower<br/>• Supplier collaboration</div>
+    <div class="mat-level">Maturity: 3→4</div>
+  </div>
+  <div class="mat-arr"><span class="mat-arr-line"></span></div>
+  <div class="mat-phase mat-p4">
+    <div class="mat-q">Phase 4: Q4</div>
+    <div class="mat-title">Scale</div>
+    <div class="mat-items">• AI/ML pilots<br/>• Autonomous planning<br/>• Partner ecosystem</div>
+    <div class="mat-level">Maturity: 4→5</div>
+  </div>
+</div>
+
+<style>
+.mat-timeline{display:flex;align-items:stretch;justify-content:center;gap:0;padding:1.5rem .5rem;overflow-x:auto}
+.mat-phase{min-width:120px;padding:1rem .7rem;border-radius:14px;border:2px solid var(--vp-c-divider);background:var(--vp-c-bg-soft);text-align:center;transition:all .3s;display:flex;flex-direction:column}
+.mat-phase:hover{transform:translateY(-3px);box-shadow:0 6px 18px rgba(0,0,0,.08)}
+.mat-p1{border-color:#6366f1}.mat-p1:hover{background:rgba(99,102,241,.06)}
+.mat-p2{border-color:#f59e0b}.mat-p2:hover{background:rgba(245,158,11,.06)}
+.mat-p3{border-color:#10b981}.mat-p3:hover{background:rgba(16,185,129,.06)}
+.mat-p4{border-color:#ef4444}.mat-p4:hover{background:rgba(239,68,68,.06)}
+.mat-q{font-size:.55rem;font-weight:600;color:var(--vp-c-text-3);text-transform:uppercase;letter-spacing:.5px}
+.mat-title{font-weight:700;font-size:.9rem;margin:.3rem 0;color:var(--vp-c-text-1)}
+.mat-items{font-size:.65rem;color:var(--vp-c-text-2);line-height:1.6;text-align:left;flex:1}
+.mat-level{font-size:.6rem;font-weight:600;color:var(--vp-c-brand-1);margin-top:.5rem;padding-top:.4rem;border-top:1px dashed var(--vp-c-divider)}
+.mat-arr{display:flex;align-items:center;min-width:28px}
+.mat-arr-line{display:block;width:18px;height:2px;background:var(--vp-c-brand-1);position:relative}
+.mat-arr-line::after{content:'';position:absolute;right:-2px;top:-4px;border:5px solid transparent;border-left:5px solid var(--vp-c-brand-1)}
+@media(max-width:640px){.mat-timeline{flex-direction:column;align-items:center}.mat-arr{transform:rotate(90deg);min-width:unset;margin:.3rem 0}}
+</style>
 
 ### 🔧 Cách áp dụng
 

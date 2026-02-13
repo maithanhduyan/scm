@@ -42,14 +42,55 @@ $$
 
 ### S&OP – Sales & Operations Planning
 
-```
-Month 1    Month 2    Month 3    Month 4    Month 5
-┌────────┐
-│ Data   │→ Demand  │→ Supply  │→ Pre-    │→ Executive
-│ Gather │  Review  │  Review  │  S&OP    │  S&OP
-└────────┘                     │  Meeting │  Meeting
-                               └──────────┘
-```
+<div class="sop-flow">
+  <div class="sop-step sop-s1">
+    <div class="sop-icon">📊</div>
+    <div class="sop-label">Data Gather</div>
+    <div class="sop-month">Month 1</div>
+  </div>
+  <div class="sop-arrow"><span class="sop-arrow-line"></span></div>
+  <div class="sop-step sop-s2">
+    <div class="sop-icon">📈</div>
+    <div class="sop-label">Demand Review</div>
+    <div class="sop-month">Month 2</div>
+  </div>
+  <div class="sop-arrow"><span class="sop-arrow-line"></span></div>
+  <div class="sop-step sop-s3">
+    <div class="sop-icon">🏭</div>
+    <div class="sop-label">Supply Review</div>
+    <div class="sop-month">Month 3</div>
+  </div>
+  <div class="sop-arrow"><span class="sop-arrow-line"></span></div>
+  <div class="sop-step sop-s4">
+    <div class="sop-icon">🤝</div>
+    <div class="sop-label">Pre-S&OP Meeting</div>
+    <div class="sop-month">Month 4</div>
+  </div>
+  <div class="sop-arrow"><span class="sop-arrow-line"></span></div>
+  <div class="sop-step sop-s5">
+    <div class="sop-icon">👔</div>
+    <div class="sop-label">Executive S&OP</div>
+    <div class="sop-month">Month 5</div>
+  </div>
+</div>
+
+<style>
+.sop-flow{display:flex;align-items:center;justify-content:center;gap:0;padding:1.5rem .5rem;overflow-x:auto}
+.sop-step{display:flex;flex-direction:column;align-items:center;min-width:100px;padding:1rem .7rem;border-radius:14px;border:2px solid var(--vp-c-divider);background:var(--vp-c-bg-soft);transition:all .3s}
+.sop-step:hover{transform:translateY(-3px);box-shadow:0 6px 20px rgba(0,0,0,.08)}
+.sop-s1{border-color:#6366f1}.sop-s1:hover{background:rgba(99,102,241,.06)}
+.sop-s2{border-color:#f59e0b}.sop-s2:hover{background:rgba(245,158,11,.06)}
+.sop-s3{border-color:#10b981}.sop-s3:hover{background:rgba(16,185,129,.06)}
+.sop-s4{border-color:#ec4899}.sop-s4:hover{background:rgba(236,72,153,.06)}
+.sop-s5{border-color:#ef4444}.sop-s5:hover{background:rgba(239,68,68,.06)}
+.sop-icon{font-size:1.8rem;margin-bottom:.3rem}
+.sop-label{font-weight:700;font-size:.82rem;color:var(--vp-c-text-1);text-align:center}
+.sop-month{font-size:.65rem;color:var(--vp-c-text-3);margin-top:.2rem;font-weight:500}
+.sop-arrow{display:flex;align-items:center;min-width:36px}
+.sop-arrow-line{display:block;width:24px;height:2px;background:var(--vp-c-brand-1);position:relative}
+.sop-arrow-line::after{content:'';position:absolute;right:-2px;top:-4px;border:5px solid transparent;border-left:6px solid var(--vp-c-brand-1)}
+@media(max-width:640px){.sop-flow{flex-direction:column}.sop-arrow{transform:rotate(90deg);min-width:unset;margin:.3rem 0}}
+</style>
 
 ### IBP – Integrated Business Planning
 
@@ -95,14 +136,42 @@ IBP kết nối:
 
 ### CPFR – Collaborative Planning, Forecasting & Replenishment
 
-```
-┌─────────┐    Shared    ┌──────────┐
-│ Retailer│←── Forecast ──→│ Supplier │
-│         │    & Plan     │          │
-│ POS data│───────────────→│ Production│
-│ Promo   │←── Inventory ─│ plan     │
-└─────────┘    status     └──────────┘
-```
+<div class="cpfr-diagram">
+  <div class="cpfr-party cpfr-retailer">
+    <div class="cpfr-title">🏪 Retailer</div>
+    <div class="cpfr-items">
+      <span>POS data</span>
+      <span>Promo plan</span>
+    </div>
+  </div>
+  <div class="cpfr-center">
+    <div class="cpfr-exchange cpfr-right">Shared Forecast & Plan →</div>
+    <div class="cpfr-shared">🔄 CPFR</div>
+    <div class="cpfr-exchange cpfr-left">← Inventory Status</div>
+  </div>
+  <div class="cpfr-party cpfr-supplier">
+    <div class="cpfr-title">🏭 Supplier</div>
+    <div class="cpfr-items">
+      <span>Production plan</span>
+      <span>Capacity</span>
+    </div>
+  </div>
+</div>
+
+<style>
+.cpfr-diagram{display:flex;align-items:center;justify-content:center;gap:1rem;padding:1.5rem 1rem;overflow-x:auto}
+.cpfr-party{min-width:130px;padding:1.2rem 1rem;border-radius:14px;border:2px solid var(--vp-c-divider);background:var(--vp-c-bg-soft);text-align:center;transition:all .3s}
+.cpfr-party:hover{transform:translateY(-3px);box-shadow:0 6px 20px rgba(0,0,0,.08)}
+.cpfr-retailer{border-color:#6366f1}.cpfr-retailer:hover{background:rgba(99,102,241,.06)}
+.cpfr-supplier{border-color:#10b981}.cpfr-supplier:hover{background:rgba(16,185,129,.06)}
+.cpfr-title{font-weight:700;font-size:1rem;margin-bottom:.5rem}
+.cpfr-items{display:flex;flex-direction:column;gap:.3rem}
+.cpfr-items span{font-size:.75rem;color:var(--vp-c-text-2);background:var(--vp-c-default-soft);padding:.2rem .5rem;border-radius:6px}
+.cpfr-center{display:flex;flex-direction:column;align-items:center;gap:.4rem;min-width:140px}
+.cpfr-shared{font-weight:700;font-size:.9rem;color:var(--vp-c-brand-1);background:var(--vp-c-brand-soft);padding:.4rem 1rem;border-radius:99px}
+.cpfr-exchange{font-size:.65rem;color:var(--vp-c-text-3);font-weight:500}
+@media(max-width:640px){.cpfr-diagram{flex-direction:column}.cpfr-center{flex-direction:row;flex-wrap:wrap;justify-content:center}}
+</style>
 
 ### Consensus Forecast Process
 

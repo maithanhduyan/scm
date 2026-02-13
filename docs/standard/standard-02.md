@@ -12,32 +12,54 @@ Buổi 2 là buổi **"nhiều framework nhất"** trong toàn bộ chương tr�
 
 **Bản đồ tư duy Buổi 2:**
 
-```
-                    ┌─────────────────────────────┐
-                    │  Triết lý quản lý chuỗi      │
-                    │  cung ứng hiện đại           │
-                    └──────────┬──────────────────┘
-           ┌──────────────────┼──────────────────────┐
-           ▼                  ▼                      ▼
-   ┌──────────────┐  ┌───────────────┐    ┌──────────────────┐
-   │  Lean / TPS  │  │ Agile / Leagile│    │  Resilient SC    │
-   │  (Giảm waste)│  │ (Phản ứng nhanh)│  │  (Chống chịu)    │
-   └──────┬───────┘  └───────┬───────┘    └────────┬─────────┘
-          │                  │                     │
-          └──────────┬───────┴─────────────────────┘
-                     ▼
-          ┌────────────────────┐
-          │  Framework đo lường │
-          │  SCOR KPIs, IBP     │
-          └─────────┬──────────┘
-                    │
-          ┌─────────┼──────────────┐
-          ▼         ▼              ▼
-   ┌──────────┐ ┌────────┐ ┌────────────────┐
-   │  DDMRP   │ │  CPFR  │ │  Digital SCM   │
-   │  VMI     │ │  TCO   │ │  IoT, AI, I4.0 │
-   └──────────┘ └────────┘ └────────────────┘
-```
+<div class="mind-map">
+  <div class="mm-root">🧠 Triết lý quản lý chuỗi cung ứng hiện đại</div>
+  <div class="mm-branches">
+    <div class="mm-branch mm-b1">
+      <div class="mm-node">🏭 Lean / TPS<div class="mm-desc">Giảm waste</div></div>
+    </div>
+    <div class="mm-branch mm-b2">
+      <div class="mm-node">⚡ Agile / Leagile<div class="mm-desc">Phản ứng nhanh</div></div>
+    </div>
+    <div class="mm-branch mm-b3">
+      <div class="mm-node">🛡️ Resilient SC<div class="mm-desc">Chống chịu</div></div>
+    </div>
+  </div>
+  <div class="mm-connector">▼</div>
+  <div class="mm-mid">
+    <div class="mm-node mm-measure">📏 Framework đo lường — SCOR KPIs, IBP</div>
+  </div>
+  <div class="mm-connector">▼</div>
+  <div class="mm-branches">
+    <div class="mm-branch mm-b4">
+      <div class="mm-node">📦 DDMRP<br/>VMI</div>
+    </div>
+    <div class="mm-branch mm-b5">
+      <div class="mm-node">🤝 CPFR<br/>TCO</div>
+    </div>
+    <div class="mm-branch mm-b6">
+      <div class="mm-node">🤖 Digital SCM<br/>IoT, AI, I4.0</div>
+    </div>
+  </div>
+</div>
+
+<style>
+.mind-map{max-width:600px;margin:1.5rem auto;text-align:center}
+.mm-root{font-weight:700;font-size:.9rem;padding:.8rem 1.2rem;border-radius:99px;background:var(--vp-c-brand-soft);color:var(--vp-c-brand-1);border:2px solid var(--vp-c-brand-1);display:inline-block;margin-bottom:.8rem}
+.mm-branches{display:flex;justify-content:center;gap:.8rem;flex-wrap:wrap}
+.mm-node{padding:.7rem .8rem;border-radius:12px;border:2px solid var(--vp-c-divider);background:var(--vp-c-bg-soft);font-weight:600;font-size:.78rem;transition:all .3s;min-width:100px}
+.mm-node:hover{transform:translateY(-2px);box-shadow:0 4px 14px rgba(0,0,0,.07)}
+.mm-desc{font-weight:400;font-size:.65rem;color:var(--vp-c-text-3);margin-top:.2rem}
+.mm-b1 .mm-node{border-color:#6366f1;color:#6366f1}
+.mm-b2 .mm-node{border-color:#f59e0b;color:#d97706}
+.mm-b3 .mm-node{border-color:#10b981;color:#059669}
+.mm-b4 .mm-node{border-color:#ec4899;color:#db2777}
+.mm-b5 .mm-node{border-color:#8b5cf6;color:#7c3aed}
+.mm-b6 .mm-node{border-color:#06b6d4;color:#0891b2}
+.mm-connector{color:var(--vp-c-text-3);font-size:.8rem;margin:.3rem 0}
+.mm-measure{border-color:#f59e0b !important;color:#d97706 !important;display:inline-block}
+.mm-mid{margin:.3rem 0}
+</style>
 
 **Tại sao buổi này đặc biệt quan trọng?**
 
@@ -158,12 +180,49 @@ Khái niệm này được phát triển bởi nhiều nhà nghiên cứu, nổi
 
 **Decoupling Point** là vị trí trong chuỗi cung ứng nơi chuyển đổi từ chiến lược **push** (dựa trên dự báo) sang **pull** (dựa trên đơn hàng thực):
 
-```
-Nhà cung cấp ──→ Sản xuất bán thành phẩm ──→ [DECOUPLING POINT] ──→ Hoàn thiện ──→ Khách hàng
-                                                      ▲
-                 ◀──── PUSH (Forecast-driven) ────┤    ├──── PULL (Order-driven) ────▶
-                 ◀──── LEAN (Efficiency) ─────────┤    ├──── AGILE (Responsiveness) ─▶
-```
+<div class="dp-flow">
+  <div class="dp-zone dp-push">
+    <div class="dp-zlabel">PUSH ◀ Forecast-driven</div>
+    <div class="dp-znodes">
+      <span class="dp-n dp-n1">🏭 Nhà cung cấp</span>
+      <span class="dp-a">→</span>
+      <span class="dp-n dp-n2">⚙️ SX bán TP</span>
+    </div>
+    <div class="dp-strat">LEAN (Efficiency)</div>
+  </div>
+  <div class="dp-point">
+    <div class="dp-diamond">◆</div>
+    <div class="dp-plabel">DECOUPLING<br/>POINT</div>
+  </div>
+  <div class="dp-zone dp-pull">
+    <div class="dp-zlabel">PULL ▶ Order-driven</div>
+    <div class="dp-znodes">
+      <span class="dp-n dp-n3">📦 Hoàn thiện</span>
+      <span class="dp-a">→</span>
+      <span class="dp-n dp-n4">👤 Khách hàng</span>
+    </div>
+    <div class="dp-strat">AGILE (Responsiveness)</div>
+  </div>
+</div>
+
+<style>
+.dp-flow{display:flex;align-items:stretch;justify-content:center;gap:0;padding:1.2rem .5rem;overflow-x:auto}
+.dp-zone{flex:1;max-width:220px;padding:.8rem .6rem;border-radius:12px;border:2px solid var(--vp-c-divider);background:var(--vp-c-bg-soft);text-align:center}
+.dp-push{border-color:#6366f1;background:rgba(99,102,241,.04)}
+.dp-pull{border-color:#10b981;background:rgba(16,185,129,.04)}
+.dp-zlabel{font-size:.55rem;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:.4rem}
+.dp-push .dp-zlabel{color:#7c3aed}.dp-pull .dp-zlabel{color:#059669}
+.dp-znodes{display:flex;align-items:center;justify-content:center;gap:.2rem;flex-wrap:wrap}
+.dp-n{padding:.3rem .4rem;border-radius:6px;border:1.5px solid var(--vp-c-divider);font-size:.6rem;font-weight:600;background:var(--vp-c-bg)}
+.dp-n1{border-color:#8b5cf6}.dp-n2{border-color:#a78bfa}.dp-n3{border-color:#34d399}.dp-n4{border-color:#10b981}
+.dp-a{font-weight:700;color:var(--vp-c-brand-1);font-size:.7rem}
+.dp-strat{font-size:.55rem;font-weight:600;color:var(--vp-c-text-3);margin-top:.4rem;padding-top:.3rem;border-top:1px dashed var(--vp-c-divider)}
+.dp-point{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0 .5rem}
+.dp-diamond{font-size:1.6rem;color:#ef4444;animation:dp-pulse 2s ease-in-out infinite}
+.dp-plabel{font-size:.5rem;font-weight:800;color:#ef4444;text-align:center;line-height:1.2}
+@keyframes dp-pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.15)}}
+@media(max-width:640px){.dp-flow{flex-direction:column;align-items:center;gap:.4rem}.dp-point{transform:rotate(90deg);padding:.3rem 0}}
+</style>
 
 | Vị trí Decoupling Point | Chiến lược | Ví dụ |
 |-------------------------|-----------|-------|
@@ -323,16 +382,49 @@ Giả sử Vinamilk muốn đánh giá chuỗi cung ứng theo SCOR:
 
 #### 5 Bước của quy trình IBP hàng tháng
 
-```
-Tuần 1          Tuần 2          Tuần 3          Tuần 4          Tuần 4–5
-  ▼               ▼               ▼               ▼               ▼
-┌─────────┐  ┌──────────┐  ┌──────────┐  ┌────────────────┐  ┌───────────────┐
-│ Product  │→ │ Demand   │→ │ Supply   │→ │  Integrated    │→ │  Management   │
-│ Review   │  │ Review   │  │ Review   │  │ Reconciliation │  │Business Review│
-└─────────┘  └──────────┘  └──────────┘  └────────────────┘  └───────────────┘
-  Sản phẩm     Nhu cầu       Cung ứng      Cân đối tích hợp    Ban lãnh đạo
-  mới/cũ       thị trường     năng lực      giải quyết gap      ra quyết định
-```
+<div class="ibp-flow">
+  <div class="ibp-step ibp-s1">
+    <div class="ibp-week">Tuần 1</div>
+    <div class="ibp-title">📦 Product<br/>Review</div>
+    <div class="ibp-desc">Sản phẩm mới/cũ</div>
+  </div>
+  <div class="ibp-arr">→</div>
+  <div class="ibp-step ibp-s2">
+    <div class="ibp-week">Tuần 2</div>
+    <div class="ibp-title">📊 Demand<br/>Review</div>
+    <div class="ibp-desc">Nhu cầu thị trường</div>
+  </div>
+  <div class="ibp-arr">→</div>
+  <div class="ibp-step ibp-s3">
+    <div class="ibp-week">Tuần 3</div>
+    <div class="ibp-title">⚙️ Supply<br/>Review</div>
+    <div class="ibp-desc">Năng lực cung ứng</div>
+  </div>
+  <div class="ibp-arr">→</div>
+  <div class="ibp-step ibp-s4">
+    <div class="ibp-week">Tuần 4</div>
+    <div class="ibp-title">⚖️ Integrated<br/>Reconciliation</div>
+    <div class="ibp-desc">Cân đối tích hợp</div>
+  </div>
+  <div class="ibp-arr">→</div>
+  <div class="ibp-step ibp-s5">
+    <div class="ibp-week">Tuần 4–5</div>
+    <div class="ibp-title">👔 Management<br/>Business Review</div>
+    <div class="ibp-desc">Ban lãnh đạo quyết định</div>
+  </div>
+</div>
+
+<style>
+.ibp-flow{display:flex;align-items:stretch;justify-content:center;gap:0;padding:1.2rem .5rem;overflow-x:auto}
+.ibp-step{min-width:100px;padding:.7rem .5rem;border-radius:12px;border:2px solid var(--vp-c-divider);background:var(--vp-c-bg-soft);text-align:center;transition:all .3s;display:flex;flex-direction:column}
+.ibp-step:hover{transform:translateY(-2px);box-shadow:0 4px 14px rgba(0,0,0,.07)}
+.ibp-s1{border-color:#8b5cf6}.ibp-s2{border-color:#06b6d4}.ibp-s3{border-color:#f59e0b}.ibp-s4{border-color:#10b981}.ibp-s5{border-color:#ef4444}
+.ibp-week{font-size:.5rem;font-weight:600;color:var(--vp-c-text-3);text-transform:uppercase;letter-spacing:.3px}
+.ibp-title{font-weight:700;font-size:.68rem;color:var(--vp-c-text-1);margin:.25rem 0;flex:1}
+.ibp-desc{font-size:.58rem;color:var(--vp-c-text-2);padding-top:.25rem;border-top:1px dashed var(--vp-c-divider)}
+.ibp-arr{display:flex;align-items:center;font-size:.9rem;font-weight:700;color:var(--vp-c-brand-1);padding:0 .2rem}
+@media(max-width:640px){.ibp-flow{flex-direction:column;align-items:center}.ibp-arr{transform:rotate(90deg);padding:.2rem 0}}
+</style>
 
 | Bước | Tên gọi | Người chủ trì | Nội dung chính | Output |
 |------|---------|---------------|----------------|--------|

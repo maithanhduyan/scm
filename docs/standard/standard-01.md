@@ -284,15 +284,51 @@ Một chuyên viên SCM tại Việt Nam chuẩn bị thi **CSCP** sẽ cần n�
 
 #### Kết hợp VSM với SCOR
 
-```
-SCOR Level 1-2: Xác định phạm vi (Plan → Source → Make → Deliver)
-       ↓
-SCOR Level 3: Chi tiết hóa từng process element
-       ↓
-VSM: Vẽ dòng giá trị cho từng process element, đo thời gian, nhận diện waste
-       ↓
-SCOR Level 4: Thiết kế quy trình cải tiến dựa trên Future State Map
-```
+<div class="scor-vsm">
+  <div class="sv-step sv-s1">
+    <div class="sv-badge">1</div>
+    <div class="sv-body">
+      <div class="sv-title">SCOR Level 1–2</div>
+      <div class="sv-desc">Xác định phạm vi: Plan → Source → Make → Deliver</div>
+    </div>
+  </div>
+  <div class="sv-arrow">↓</div>
+  <div class="sv-step sv-s2">
+    <div class="sv-badge">2</div>
+    <div class="sv-body">
+      <div class="sv-title">SCOR Level 3</div>
+      <div class="sv-desc">Chi tiết hóa từng process element</div>
+    </div>
+  </div>
+  <div class="sv-arrow">↓</div>
+  <div class="sv-step sv-s3">
+    <div class="sv-badge">3</div>
+    <div class="sv-body">
+      <div class="sv-title">VSM Mapping</div>
+      <div class="sv-desc">Vẽ dòng giá trị, đo thời gian, nhận diện waste</div>
+    </div>
+  </div>
+  <div class="sv-arrow">↓</div>
+  <div class="sv-step sv-s4">
+    <div class="sv-badge">4</div>
+    <div class="sv-body">
+      <div class="sv-title">SCOR Level 4</div>
+      <div class="sv-desc">Thiết kế quy trình cải tiến dựa trên Future State Map</div>
+    </div>
+  </div>
+</div>
+
+<style>
+.scor-vsm{display:flex;flex-direction:column;align-items:center;gap:0;padding:1.2rem .5rem}
+.sv-step{display:flex;align-items:center;gap:.7rem;padding:.7rem 1rem;border-radius:12px;border:2px solid var(--vp-c-divider);background:var(--vp-c-bg-soft);width:100%;max-width:440px;transition:all .3s}
+.sv-step:hover{transform:translateX(4px);box-shadow:0 4px 14px rgba(0,0,0,.07)}
+.sv-s1{border-color:#6366f1}.sv-s2{border-color:#f59e0b}.sv-s3{border-color:#10b981}.sv-s4{border-color:#ef4444}
+.sv-badge{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.7rem;color:#fff;flex-shrink:0}
+.sv-s1 .sv-badge{background:#6366f1}.sv-s2 .sv-badge{background:#f59e0b}.sv-s3 .sv-badge{background:#10b981}.sv-s4 .sv-badge{background:#ef4444}
+.sv-title{font-weight:700;font-size:.72rem;color:var(--vp-c-text-1)}
+.sv-desc{font-size:.65rem;color:var(--vp-c-text-2)}
+.sv-arrow{font-size:.9rem;font-weight:700;color:var(--vp-c-brand-1);padding:.15rem 0}
+</style>
 
 ### Ví dụ thực tế
 
