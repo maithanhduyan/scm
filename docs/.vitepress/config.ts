@@ -1,22 +1,74 @@
 import { defineConfig } from "vitepress";
 
+const SITE_URL = "https://maithanhduyan.github.io/scm/";
+const OG_IMAGE = "https://maithanhduyan.github.io/scm/og-image.png";
+
 export default defineConfig({
   lang: "vi-VN",
   title: "SCM Docs",
   description:
-    "Tài liệu khóa học Quản lý Chuỗi cung ứng theo tiêu chuẩn quốc tế",
+    "Tài liệu khóa học Quản lý Chuỗi cung ứng theo tiêu chuẩn quốc tế APICS / SCOR / IBP — 12 buổi học miễn phí",
 
   base: "/scm/",
+
+  /* ── Sitemap ──────────────────────────────────── */
+  sitemap: {
+    hostname: "https://maithanhduyan.github.io",
+  },
 
   markdown: {
     math: true,
   },
 
   head: [
+    /* Favicon */
     ["link", { rel: "icon", type: "image/svg+xml", href: "/scm/favicon.svg" }],
     ["link", { rel: "icon", type: "image/png", sizes: "32x32", href: "/scm/favicon-32x32.png" }],
     ["link", { rel: "icon", type: "image/png", sizes: "16x16", href: "/scm/favicon-16x16.png" }],
     ["link", { rel: "apple-touch-icon", sizes: "180x180", href: "/scm/apple-touch-icon.png" }],
+
+    /* SEO — Open Graph */
+    ["meta", { property: "og:type", content: "website" }],
+    ["meta", { property: "og:locale", content: "vi_VN" }],
+    ["meta", { property: "og:site_name", content: "SCM Docs — Quản lý Chuỗi cung ứng" }],
+    ["meta", { property: "og:image", content: OG_IMAGE }],
+    ["meta", { property: "og:image:width", content: "1200" }],
+    ["meta", { property: "og:image:height", content: "630" }],
+
+    /* SEO — Twitter Card */
+    ["meta", { name: "twitter:card", content: "summary_large_image" }],
+    ["meta", { name: "twitter:image", content: OG_IMAGE }],
+
+    /* SEO — misc */
+    ["meta", { name: "author", content: "Mai Thanh Duyên" }],
+    ["meta", { name: "keywords", content: "supply chain management, quản lý chuỗi cung ứng, SCM, SCOR, APICS, IBP, logistics, tồn kho, nhà cung cấp, phân phối, S&OP, KPI, lean, agile" }],
+    ["meta", { name: "robots", content: "index, follow" }],
+
+    /* JSON-LD Structured Data */
+    [
+      "script",
+      { type: "application/ld+json" },
+      JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Course",
+        name: "Quản lý Chuỗi cung ứng (Supply Chain Management)",
+        description: "Khóa học SCM 12 buổi theo tiêu chuẩn quốc tế APICS / SCOR / IBP — miễn phí, mã nguồn mở",
+        provider: {
+          "@type": "Organization",
+          name: "SCM Docs",
+          url: SITE_URL,
+        },
+        educationalLevel: "Intermediate",
+        inLanguage: "vi",
+        isAccessibleForFree: true,
+        numberOfCredits: 12,
+        hasCourseInstance: {
+          "@type": "CourseInstance",
+          courseMode: "online",
+          courseWorkload: "PT24H",
+        },
+      }),
+    ],
   ],
 
   themeConfig: {

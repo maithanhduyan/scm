@@ -1,5 +1,14 @@
 ---
 outline: [2, 3]
+title: "Buổi 12: Đo lường & đánh giá hiệu suất "
+description: "SCOR Metrics, Balanced Scorecard cho SCM, KPI Dashboard, ROI chuỗi cung ứng, Benchmarking và Roadmap cải tiến liên tục."
+head:
+  - - meta
+    - property: og:title
+      content: "Buổi 12: Đo lường & đánh giá hiệu suất"
+  - - meta
+    - property: og:description
+      content: "SCOR Metrics, BSC, KPI Dashboard, SCM ROI, Benchmarking — Bài 12 khóa học SCM miễn phí."
 ---
 
 # Buổi 12: Đo lường & đánh giá hiệu suất

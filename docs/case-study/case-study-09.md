@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Case Study 9: Logistics & vận tải "
+description: "Case study logistics: Warehouse Management, Incoterms 2020, 3PL/4PL, Cross-docking và tối ưu chi phí vận chuyển."
+head:
+  - - meta
+    - property: og:title
+      content: "Case Study: Logistics & vận tải"
 ---
 
 # 📦 Case Study Buổi 9: Quản trị Logistics & vận tải

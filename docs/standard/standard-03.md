@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Tiêu chuẩn 3: Đánh giá NCC — ISO 20400, Kraljic, TCO "
+description: "ISO 20400 Sustainable Procurement, Kraljic Portfolio Matrix, TCO và tiêu chuẩn quốc tế đánh giá nhà cung cấp."
+head:
+  - - meta
+    - property: og:title
+      content: "Tiêu chuẩn quốc tế: Đánh giá nhà cung cấp"
 ---
 
 # 📏 Tiêu chuẩn Buổi 3: Lựa chọn & đánh giá nhà cung cấp

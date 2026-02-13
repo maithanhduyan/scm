@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Tại sao mì tôm đến tiệm tạp hóa nhanh hơn đơn Shopee? "
+description: "So sánh kênh phân phối truyền thống vs e-commerce. Giải mã mô hình Direct, 1-Tier, 2-Tier và Omnichannel bằng câu chuyện đời thường."
+head:
+  - - meta
+    - property: og:title
+      content: "Tại sao mì tôm đến tiệm tạp hóa nhanh hơn đơn Shopee?"
 ---
 
 # 📖 Blog Buổi 5: Tại sao gói mì tôm đến tiệm tạp hóa nhanh hơn đơn Shopee?

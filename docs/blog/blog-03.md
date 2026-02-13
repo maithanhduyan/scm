@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Chọn nhà cung cấp — Tưởng dễ mà sao chết nhiều thế? "
+description: "Sai lầm phổ biến khi chọn NCC: chỉ nhìn giá, bỏ qua TCO. Học cách dùng Kraljic Matrix và Supplier Scorecard hiệu quả."
+head:
+  - - meta
+    - property: og:title
+      content: "Chọn nhà cung cấp — Tưởng dễ mà sao chết nhiều thế?"
 ---
 
 # 📖 Blog Buổi 3: Chọn nhà cung cấp — Tưởng dễ mà sao "chết" nhiều thế?

@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Case Study 6: Hiệu suất kênh phân phối "
+description: "Case study phân tích OTIF, Cost-to-Serve, Perfect Order Rate và cải tiến liên tục kênh phân phối bằng PDCA."
+head:
+  - - meta
+    - property: og:title
+      content: "Case Study: Hiệu suất kênh phân phối"
 ---
 
 # 📦 Case Study Buổi 6: Quản lý hiệu suất & cải tiến kênh phân phối

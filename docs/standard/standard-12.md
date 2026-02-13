@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Tiêu chuẩn 12: SCOR Metrics & BSC cho SCM "
+description: "SCOR Level 1 Metrics, Balanced Scorecard, KPI Dashboard, Benchmarking và tiêu chuẩn quốc tế đo lường hiệu suất chuỗi cung ứng."
+head:
+  - - meta
+    - property: og:title
+      content: "Tiêu chuẩn quốc tế: SCOR Metrics & BSC"
 ---
 
 # 📏 Tiêu chuẩn Buổi 12: Đo lường & đánh giá hiệu suất SCM

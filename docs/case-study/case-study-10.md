@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Case Study 10: Tối ưu dòng chảy SCM "
+description: "Case study TOC, Value Stream Mapping, Lean Logistics và Bottleneck Analysis để tối ưu dòng chảy chuỗi cung ứng."
+head:
+  - - meta
+    - property: og:title
+      content: "Case Study: Tối ưu dòng chảy SCM"
 ---
 
 # 📦 Case Study Buổi 10: Tối ưu dòng chảy chuỗi cung ứng

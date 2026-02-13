@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "85% thời gian, hàng hóa chỉ nằm yên một chỗ "
+description: "Tại sao hàng hóa chờ nhiều hơn di chuyển. Value Stream Mapping, TOC và Lean Logistics giúp tối ưu dòng chảy chuỗi cung ứng."
+head:
+  - - meta
+    - property: og:title
+      content: "85% thời gian, hàng hóa chỉ nằm yên một chỗ… chờ"
 ---
 
 # 📖 Blog Buổi 10: 85% thời gian, hàng hóa chỉ nằm yên một chỗ… chờ

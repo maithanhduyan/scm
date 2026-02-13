@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Case Study 4: Hợp tác & phát triển NCC "
+description: "Case study SRM: xây dựng quan hệ đối tác chiến lược, Supplier Development Program và đàm phán Win-Win."
+head:
+  - - meta
+    - property: og:title
+      content: "Case Study: Hợp tác & phát triển nhà cung cấp"
 ---
 
 # 📦 Case Study Buổi 4: Hợp tác & phát triển nhà cung cấp

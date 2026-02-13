@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Không đo thì không biết, không biết thì không cải "
+description: "Bí mật của những chuỗi cung ứng hàng đầu: SCOR Metrics, KPI Dashboard, Balanced Scorecard và văn hóa đo lường hiệu suất."
+head:
+  - - meta
+    - property: og:title
+      content: "Không đo thì không biết, không biết thì không cải"
 ---
 
 # 📖 Blog Buổi 12: Không đo thì không biết, không biết thì không cải — bí mật của những chuỗi cung ứng hàng đầu

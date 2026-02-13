@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Tiêu chuẩn 8: Demand Planning — S&OP, CPFR, IBP "
+description: "S&OP (APICS), CPFR (VICS), IBP (Oliver Wight), Demand Sensing và tiêu chuẩn quốc tế về hoạch định nhu cầu."
+head:
+  - - meta
+    - property: og:title
+      content: "Tiêu chuẩn quốc tế: Demand Planning"
 ---
 
 # 📏 Tiêu chuẩn Buổi 8: Hoạch định nhu cầu (Demand Planning)

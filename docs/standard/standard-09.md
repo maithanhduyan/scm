@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Tiêu chuẩn 9: Logistics — Incoterms, GS1, WMS "
+description: "Incoterms 2020 (ICC), GS1/SSCC, ISO 28000, WMS và tiêu chuẩn quốc tế về logistics & vận tải."
+head:
+  - - meta
+    - property: og:title
+      content: "Tiêu chuẩn quốc tế: Logistics & vận tải"
 ---
 
 # 📏 Tiêu chuẩn Buổi 9: Quản trị Logistics & vận tải

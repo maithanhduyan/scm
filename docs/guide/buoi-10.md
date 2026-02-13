@@ -1,5 +1,14 @@
 ---
 outline: [2, 3]
+title: "Buổi 10: Tối ưu dòng chảy chuỗi cung ứng "
+description: "Theory of Constraints (TOC), Value Stream Mapping (VSM), Lean Logistics, Bottleneck Analysis, Drum-Buffer-Rope và tối ưu lead time."
+head:
+  - - meta
+    - property: og:title
+      content: "Buổi 10: Tối ưu dòng chảy chuỗi cung ứng"
+  - - meta
+    - property: og:description
+      content: "TOC, VSM, Lean Logistics, Bottleneck Analysis — Bài 10 khóa học SCM miễn phí."
 ---
 
 # Buổi 10: Tối ưu dòng chảy chuỗi cung ứng

@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Case Study 11: Tích hợp chuỗi cung ứng "
+description: "Case study E2E Integration, Control Tower, Digital SCM và chiến lược phá si-lô giữa các phòng ban."
+head:
+  - - meta
+    - property: og:title
+      content: "Case Study: Tích hợp chuỗi cung ứng"
 ---
 
 # 📦 Case Study Buổi 11: Tích hợp chuỗi cung ứng

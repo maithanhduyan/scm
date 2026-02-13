@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Sales bán hứa, Sản xuất hụt hơi — ai đổ lỗi cho ai? "
+description: "Vấn đề si-lô giữa các phòng ban và giải pháp tích hợp chuỗi cung ứng: E2E Integration, Control Tower, S&OP/IBP."
+head:
+  - - meta
+    - property: og:title
+      content: "Sales bán hứa, Sản xuất hụt hơi — ai đổ lỗi cho ai?"
 ---
 
 # 📖 Blog Buổi 11: Tại sao phòng Sales bán hứa, Sản xuất chạy hụt hơi, và ai cũng đổ lỗi cho nhau?

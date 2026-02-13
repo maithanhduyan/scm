@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Dự báo sai 35% — câu chuyện đốt tiền thầm lặng "
+description: "Tại sao dự báo nhu cầu sai gây thiệt hại lớn. Giải pháp S&OP, CPFR, Demand Sensing và AI forecasting."
+head:
+  - - meta
+    - property: og:title
+      content: "Dự báo sai 35% — câu chuyện đốt tiền thầm lặng"
 ---
 
 # 📖 Blog Buổi 8: Dự báo sai 35% — câu chuyện "đốt tiền" thầm lặng mà doanh nghiệp nào cũng mắc

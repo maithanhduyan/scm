@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Tiêu chuẩn 10: Lean Logistics — TOC, VSM, TPS "
+description: "Theory of Constraints, Value Stream Mapping, Toyota Production System và tiêu chuẩn quốc tế về tối ưu dòng chảy."
+head:
+  - - meta
+    - property: og:title
+      content: "Tiêu chuẩn quốc tế: Tối ưu dòng chảy SCM"
 ---
 
 # 📏 Tiêu chuẩn Buổi 10: Tối ưu dòng chảy chuỗi cung ứng

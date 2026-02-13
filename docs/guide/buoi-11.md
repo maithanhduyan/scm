@@ -1,5 +1,14 @@
 ---
 outline: [2, 3]
+title: "Buổi 11: Tích hợp chuỗi cung ứng "
+description: "End-to-end Integration, Supply Chain Control Tower, Digital SCM, ERP/MES/WMS/TMS tích hợp, API & EDI và chiến lược collaboration."
+head:
+  - - meta
+    - property: og:title
+      content: "Buổi 11: Tích hợp chuỗi cung ứng"
+  - - meta
+    - property: og:description
+      content: "E2E Integration, Control Tower, Digital SCM, ERP tích hợp — Bài 11 khóa học SCM miễn phí."
 ---
 
 # Buổi 11: Tích hợp chuỗi cung ứng

@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Toyota, Zara và P&G — Ba trường phái vận hành khác nhau "
+description: "So sánh Lean (Toyota), Agile (Zara) và Resilient (P&G) supply chain. Trường phái nào phù hợp doanh nghiệp Việt Nam?"
+head:
+  - - meta
+    - property: og:title
+      content: "Toyota, Zara và P&G — Ba trường phái vận hành SCM"
 ---
 
 # 📖 Blog Buổi 2: Toyota, Zara và P&G — Ba trường phái vận hành khác nhau, ai thắng?

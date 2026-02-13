@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Case Study 7: Quản lý tồn kho "
+description: "Case study EOQ, Safety Stock, ABC/XYZ analysis và chiến lược tồn kho Multi-echelon trong doanh nghiệp thực tế."
+head:
+  - - meta
+    - property: og:title
+      content: "Case Study: Quản lý tồn kho"
 ---
 
 # 📦 Case Study Buổi 7: Nguyên tắc quản lý tồn kho

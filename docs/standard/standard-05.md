@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Tiêu chuẩn 5: Phân phối — SCOR sD, ECR, DSD "
+description: "SCOR sD (Deliver), ECR, DSD, Omnichannel và tiêu chuẩn quốc tế về thiết kế mạng lưới phân phối."
+head:
+  - - meta
+    - property: og:title
+      content: "Tiêu chuẩn quốc tế: Kênh phân phối"
 ---
 
 # 📏 Tiêu chuẩn Buổi 5: Xây dựng & quản lý kênh phân phối

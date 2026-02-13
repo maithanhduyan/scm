@@ -1,5 +1,14 @@
 ---
 outline: [2, 3]
+title: "Buổi 5: Xây dựng & quản lý kênh phân phối "
+description: "Mô hình phân phối Direct/1-Tier/2-Tier, Network Design, D2C vs Distributor, Omnichannel và trade-off chi phí vận chuyển — tồn kho — service level."
+head:
+  - - meta
+    - property: og:title
+      content: "Buổi 5: Xây dựng & quản lý kênh phân phối"
+  - - meta
+    - property: og:description
+      content: "Distribution Network Design, D2C vs Distributor, Omnichannel — Bài 5 khóa học SCM miễn phí."
 ---
 
 # Buổi 5: Xây dựng & quản lý kênh phân phối

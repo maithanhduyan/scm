@@ -1,5 +1,14 @@
 ---
 outline: [2, 3]
+title: "Buổi 6: Quản lý hiệu suất & cải tiến kênh "
+description: "KPI kênh phân phối (OTIF, Fill Rate, Perfect Order), Service Level Agreement, Cost-to-Serve, PDCA cải tiến liên tục và Root Cause Analysis."
+head:
+  - - meta
+    - property: og:title
+      content: "Buổi 6: Quản lý hiệu suất & cải tiến kênh"
+  - - meta
+    - property: og:description
+      content: "OTIF, SLA, Cost-to-Serve, PDCA, Root Cause Analysis — Bài 6 khóa học SCM miễn phí."
 ---
 
 # Buổi 6: Quản lý hiệu suất & cải tiến kênh

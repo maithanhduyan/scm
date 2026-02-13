@@ -1,5 +1,18 @@
 ---
 layout: home
+title: "Khóa học Quản lý Chuỗi cung ứng — SCM Docs"
+titleTemplate: false
+description: "Khóa học Supply Chain Management miễn phí 12 buổi theo tiêu chuẩn APICS, SCOR, IBP. Bài giảng, blog, case study & tiêu chuẩn quốc tế."
+head:
+  - - meta
+    - property: og:title
+      content: "Khóa học Quản lý Chuỗi cung ứng — SCM Docs"
+  - - meta
+    - property: og:description
+      content: "Học Supply Chain Management miễn phí 12 buổi: SCOR model, nhà cung cấp, phân phối, tồn kho, logistics, KPI."
+  - - meta
+    - property: og:url
+      content: "https://maithanhduyan.github.io/scm/"
 
 hero:
   name: "Supply Chain Management"

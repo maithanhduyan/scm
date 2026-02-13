@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Case Study 12: Đo lường hiệu suất SCM "
+description: "Case study SCOR Metrics, Balanced Scorecard, KPI Dashboard và Benchmarking hiệu suất chuỗi cung ứng."
+head:
+  - - meta
+    - property: og:title
+      content: "Case Study: Đo lường hiệu suất SCM"
 ---
 
 # 📦 Case Study Buổi 12: Đo lường & đánh giá hiệu suất SCM

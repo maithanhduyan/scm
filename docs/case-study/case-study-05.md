@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Case Study 5: Kênh phân phối "
+description: "Case study thiết kế mạng lưới phân phối: D2C vs Distributor, Omnichannel và Network Design cho thị trường Việt Nam."
+head:
+  - - meta
+    - property: og:title
+      content: "Case Study: Xây dựng kênh phân phối"
 ---
 
 # 📦 Case Study Buổi 5: Xây dựng & quản lý kênh phân phối

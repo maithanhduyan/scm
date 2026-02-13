@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Ly cà phê sáng nay đã đi qua bao nhiêu tay? "
+description: "Khám phá chuỗi cung ứng ẩn sau ly cà phê: từ nông trại Đắk Lắk đến quán cà phê của bạn. Hiểu SCM qua câu chuyện đời thường."
+head:
+  - - meta
+    - property: og:title
+      content: "Ly cà phê sáng nay đã đi qua bao nhiêu tay?"
 ---
 
 # 📖 Blog Buổi 1: Ly cà phê sáng nay đã đi qua bao nhiêu tay?

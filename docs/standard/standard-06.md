@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Tiêu chuẩn 6: KPI kênh — OTIF, ISO 9001, ABC Costing "
+description: "OTIF, Perfect Order, ISO 9001, Activity-Based Costing và tiêu chuẩn quốc tế đo lường hiệu suất kênh phân phối."
+head:
+  - - meta
+    - property: og:title
+      content: "Tiêu chuẩn quốc tế: KPI kênh phân phối"
 ---
 
 # 📏 Tiêu chuẩn Buổi 6: Quản lý hiệu suất & cải tiến kênh phân phối

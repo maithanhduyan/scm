@@ -1,5 +1,14 @@
 ---
 outline: [2, 3]
+title: "Buổi 1: Khái niệm & cấu trúc chuỗi cung ứng "
+description: "Tìm hiểu mô hình chuỗi cung ứng end-to-end, vai trò SCM trong chiến lược doanh nghiệp, SCOR Model 6 quy trình cốt lõi và cách mapping chuỗi cung ứng thực tế."
+head:
+  - - meta
+    - property: og:title
+      content: "Buổi 1: Khái niệm & cấu trúc chuỗi cung ứng"
+  - - meta
+    - property: og:description
+      content: "SCOR Model, cấu trúc end-to-end, mapping chuỗi cung ứng thực tế — Bài 1 khóa học SCM miễn phí."
 ---
 
 # Buổi 1: Khái niệm & cấu trúc chuỗi cung ứng

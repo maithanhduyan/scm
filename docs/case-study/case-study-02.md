@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Case Study 2: Tiêu chuẩn quốc tế trong SCM "
+description: "Case study áp dụng Lean, Agile, Resilient Supply Chain. So sánh Toyota vs Zara vs P&G và bài học cho doanh nghiệp Việt."
+head:
+  - - meta
+    - property: og:title
+      content: "Case Study: Tiêu chuẩn quốc tế trong SCM"
 ---
 
 # 📦 Case Study Buổi 2: Tiêu chuẩn & phương pháp quốc tế trong SCM

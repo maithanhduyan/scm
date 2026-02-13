@@ -1,5 +1,14 @@
 ---
 outline: [2, 3]
+title: "Buổi 2: Tiêu chuẩn & phương pháp quốc tế trong SCM "
+description: "SCOR, APICS, IBP, Lean, Agile, Resilient Supply Chain. Công nghệ chuyển đổi số SCM: IoT, AI/ML, Blockchain, Digital Twin và top 10 best practices toàn cầu."
+head:
+  - - meta
+    - property: og:title
+      content: "Buổi 2: Tiêu chuẩn & phương pháp quốc tế trong SCM"
+  - - meta
+    - property: og:description
+      content: "SCOR, APICS, IBP, Lean-Agile-Resilient SC, Digital SCM — Bài 2 khóa học SCM miễn phí."
 ---
 
 # Buổi 2: Tiêu chuẩn & phương pháp quốc tế trong SCM

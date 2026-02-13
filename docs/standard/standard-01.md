@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Tiêu chuẩn 1: Cấu trúc SCM — SCOR, GSCF, VSM "
+description: "Tiêu chuẩn quốc tế về cấu trúc chuỗi cung ứng: SCOR Model (APICS), GSCF Framework (Lambert), Value Stream Mapping và cách áp dụng cho doanh nghiệp."
+head:
+  - - meta
+    - property: og:title
+      content: "Tiêu chuẩn quốc tế: Cấu trúc chuỗi cung ứng"
 ---
 
 # 📏 Tiêu chuẩn Buổi 1: Khái niệm & cấu trúc chuỗi cung ứng

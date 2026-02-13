@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Tiêu chuẩn 4: SRM — ISO 44001, SCOR sS3 "
+description: "ISO 44001 Collaborative Business, SCOR sS3, Supplier Development và tiêu chuẩn quốc tế về quan hệ nhà cung cấp."
+head:
+  - - meta
+    - property: og:title
+      content: "Tiêu chuẩn quốc tế: SRM & phát triển NCC"
 ---
 
 # 📏 Tiêu chuẩn Buổi 4: Hợp tác & phát triển nhà cung cấp

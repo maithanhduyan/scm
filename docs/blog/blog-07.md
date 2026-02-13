@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Tủ lạnh nhà bạn chính là bài học quản lý tồn kho "
+description: "Hiểu EOQ, Safety Stock, ABC/XYZ analysis và Inventory Turnover qua ví dụ đời thường từ chính tủ lạnh nhà bạn."
+head:
+  - - meta
+    - property: og:title
+      content: "Tủ lạnh nhà bạn — bài học quản lý tồn kho hoàn hảo"
 ---
 
 # 📖 Blog Buổi 7: Tủ lạnh nhà bạn chính là bài học quản lý tồn kho hoàn hảo

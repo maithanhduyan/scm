@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Kênh online doanh thu tăng vọt, sao cuối tháng vẫn lỗ? "
+description: "Bí ẩn Cost-to-Serve: tại sao doanh thu kênh online cao nhưng lợi nhuận âm. Phân tích chi phí phục vụ theo kênh phân phối."
+head:
+  - - meta
+    - property: og:title
+      content: "Kênh online doanh thu tăng vọt, sao cuối tháng vẫn lỗ?"
 ---
 
 # 📖 Blog Buổi 6: Kênh online doanh thu tăng vọt, sao cuối tháng vẫn lỗ? — Bí ẩn mang tên Cost-to-Serve

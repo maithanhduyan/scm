@@ -1,5 +1,14 @@
 ---
 outline: [2, 3]
+title: "Buổi 4: Hợp tác & phát triển nhà cung cấp "
+description: "SRM (Supplier Relationship Management), đàm phán Win-Win theo Harvard, Supplier Development Program và các loại hợp đồng SCM."
+head:
+  - - meta
+    - property: og:title
+      content: "Buổi 4: Hợp tác & phát triển nhà cung cấp"
+  - - meta
+    - property: og:description
+      content: "SRM, đàm phán Win-Win, phát triển năng lực NCC, hợp đồng SCM — Bài 4 khóa học SCM miễn phí."
 ---
 
 # Buổi 4: Hợp tác & phát triển nhà cung cấp

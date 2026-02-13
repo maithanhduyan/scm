@@ -1,5 +1,14 @@
 ---
 outline: [2, 3]
+title: "Buổi 9: Quản trị Logistics & vận tải "
+description: "Warehouse management, Incoterms 2020, 3PL/4PL, Transportation Management, Cross-docking, Milk Run và tối ưu chi phí logistics."
+head:
+  - - meta
+    - property: og:title
+      content: "Buổi 9: Quản trị Logistics & vận tải"
+  - - meta
+    - property: og:description
+      content: "Warehouse, Incoterms, 3PL/4PL, TMS, Cross-docking — Bài 9 khóa học SCM miễn phí."
 ---
 
 # Buổi 9: Quản trị Logistics & vận tải

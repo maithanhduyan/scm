@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Tiêu chuẩn 7: Tồn kho — EOQ, DDMRP, Multi-echelon "
+description: "EOQ, Safety Stock, DDMRP, Multi-echelon Inventory Optimization và tiêu chuẩn quốc tế về quản lý tồn kho."
+head:
+  - - meta
+    - property: og:title
+      content: "Tiêu chuẩn quốc tế: Quản lý tồn kho"
 ---
 
 # 📏 Tiêu chuẩn Buổi 7: Nguyên tắc quản lý tồn kho

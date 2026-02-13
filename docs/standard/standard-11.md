@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Tiêu chuẩn 11: Tích hợp SCM — SCOR Enable, Control Tower "
+description: "SCOR Enable, Supply Chain Control Tower, API/EDI Integration và tiêu chuẩn quốc tế về tích hợp chuỗi cung ứng."
+head:
+  - - meta
+    - property: og:title
+      content: "Tiêu chuẩn quốc tế: Tích hợp SCM"
 ---
 
 # 📏 Tiêu chuẩn Buổi 11: Tích hợp chuỗi cung ứng

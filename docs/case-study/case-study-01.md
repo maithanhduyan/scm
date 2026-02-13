@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Case Study 1: Cấu trúc chuỗi cung ứng thực tế "
+description: "Phân tích case study thực tế về mô hình chuỗi cung ứng end-to-end, SCOR Model và mapping các dòng chảy vật tư — thông tin — tài chính."
+head:
+  - - meta
+    - property: og:title
+      content: "Case Study: Cấu trúc chuỗi cung ứng thực tế"
 ---
 
 # 🏢 Case Study Buổi 1: Khái niệm & cấu trúc chuỗi cung ứng

@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Case Study 3: Đánh giá nhà cung cấp "
+description: "Case study lựa chọn và đánh giá nhà cung cấp: Kraljic Matrix, TCO, Supplier Scorecard và quản trị rủi ro NCC."
+head:
+  - - meta
+    - property: og:title
+      content: "Case Study: Đánh giá nhà cung cấp"
 ---
 
 # 📦 Case Study Buổi 3: Lựa chọn & đánh giá nhà cung cấp

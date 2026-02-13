@@ -1,5 +1,14 @@
 ---
 outline: [2, 3]
+title: "Buổi 8: Hoạch định nhu cầu — Demand Planning "
+description: "S&OP, CPFR, Demand Sensing, phương pháp dự báo (Moving Average, Exponential Smoothing), Bullwhip Effect và AI trong demand forecasting."
+head:
+  - - meta
+    - property: og:title
+      content: "Buổi 8: Hoạch định nhu cầu — Demand Planning"
+  - - meta
+    - property: og:description
+      content: "S&OP, CPFR, Demand Sensing, Bullwhip Effect, AI forecasting — Bài 8 khóa học SCM miễn phí."
 ---
 
 # Buổi 8: Hoạch định nhu cầu (Demand Planning)

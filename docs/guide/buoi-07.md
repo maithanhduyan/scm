@@ -1,5 +1,14 @@
 ---
 outline: [2, 3]
+title: "Buổi 7: Nguyên tắc quản lý tồn kho "
+description: "EOQ, Safety Stock, ABC/XYZ analysis, mô hình tồn kho Multi-echelon, Inventory Turnover và chiến lược tối ưu tồn kho trong chuỗi cung ứng."
+head:
+  - - meta
+    - property: og:title
+      content: "Buổi 7: Nguyên tắc quản lý tồn kho"
+  - - meta
+    - property: og:description
+      content: "EOQ, Safety Stock, ABC/XYZ, Multi-echelon Inventory — Bài 7 khóa học SCM miễn phí."
 ---
 
 # Buổi 7: Nguyên tắc quản lý tồn kho

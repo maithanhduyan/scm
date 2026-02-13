@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Tiêu chuẩn 2: Framework quốc tế SCM — Lean, Agile, IBP "
+description: "Lean SC, Agile SC, Resilient SC, Leagile, Decoupling Point, DDMRP, IBP (Oliver Wight) và các framework quốc tế quản lý chuỗi cung ứng."
+head:
+  - - meta
+    - property: og:title
+      content: "Tiêu chuẩn quốc tế: Framework SCM"
 ---
 
 # 📏 Tiêu chuẩn Buổi 2: Tiêu chuẩn & phương pháp quốc tế trong SCM

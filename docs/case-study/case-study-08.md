@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Case Study 8: Hoạch định nhu cầu "
+description: "Case study Demand Planning: S&OP, CPFR, Demand Sensing, Bullwhip Effect và áp dụng AI trong dự báo nhu cầu."
+head:
+  - - meta
+    - property: og:title
+      content: "Case Study: Hoạch định nhu cầu"
 ---
 
 # 📦 Case Study Buổi 8: Hoạch định nhu cầu (Demand Planning)

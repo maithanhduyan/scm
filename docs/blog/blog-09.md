@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Hành trình 1.700 km của thùng cà phê Đắk Lắk → Hải Phòng "
+description: "Tối ưu logistics từ Đắk Lắk ra cảng Hải Phòng: Incoterms, 3PL, chi phí vận tải và bài toán giữ lợi nhuận xuất khẩu."
+head:
+  - - meta
+    - property: og:title
+      content: "Hành trình 1.700 km của thùng cà phê Đắk Lắk → Hải Phòng"
 ---
 
 # 📖 Blog Buổi 9: Hành trình 1.700 km của thùng cà phê từ Đắk Lắk ra cảng Hải Phòng — đi đường nào cho khỏi "bay" hết lợi nhuận?

@@ -1,5 +1,11 @@
 ---
 outline: [2, 3]
+title: "Tại sao Toyota coi nhà cung cấp như người nhà? "
+description: "SRM của Toyota: từ Transactional đến Partnership. Bí quyết xây dựng quan hệ NCC dài hạn và Supplier Development Program."
+head:
+  - - meta
+    - property: og:title
+      content: "Tại sao Toyota coi nhà cung cấp như người nhà?"
 ---
 
 # 📖 Blog Buổi 4: Tại sao Toyota coi nhà cung cấp như người nhà — còn bạn thì không?

@@ -1,5 +1,14 @@
 ---
 outline: [2, 3]
+title: "Buổi 3: Lựa chọn & đánh giá nhà cung cấp "
+description: "Ma trận Kraljic, Total Cost of Ownership (TCO), bộ KPI nhà cung cấp chuẩn, quản trị rủi ro và thiết kế Supplier Scorecard."
+head:
+  - - meta
+    - property: og:title
+      content: "Buổi 3: Lựa chọn & đánh giá nhà cung cấp"
+  - - meta
+    - property: og:description
+      content: "Kraljic Matrix, TCO, KPI nhà cung cấp, Risk Management — Bài 3 khóa học SCM miễn phí."
 ---
 
 # Buổi 3: Lựa chọn & đánh giá nhà cung cấp
